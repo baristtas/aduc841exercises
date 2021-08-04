@@ -9,10 +9,10 @@ org 0000h
 	mov r0,#21d
 	
 	clr rs1
-	RamPrinter:
+	x:
 	mov @r0, 10h
 	inc 10h
-	djnz 00h, RamPrinter
+	djnz 00h, x
 	
 	clr rs0
 	setb rs1
