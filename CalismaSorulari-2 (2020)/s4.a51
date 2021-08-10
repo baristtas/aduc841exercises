@@ -14,7 +14,7 @@ org 0000h
 	mov a , r0
 	MUL AB
 	mov b , a
-	mov p0, b
 	djnz r0 , x
+	mov p0, b
 	
 end
