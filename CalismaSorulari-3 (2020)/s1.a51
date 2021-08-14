@@ -9,5 +9,22 @@ org 0000h
 	X:
 	mov p3,a
 	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	mov p3,a
+	rl a
+	
+	
+
 	sjmp X
 end
